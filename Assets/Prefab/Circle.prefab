@@ -114,6 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9010707862928110828}
+  - component: {fileID: 9215570601549206774}
   - component: {fileID: 2966715964713589052}
   m_Layer: 0
   m_Name: Sprite
@@ -137,6 +138,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7961265564050903897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9215570601549206774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549712748201378657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f793b1a7fc6499d4f8121abbdac19c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shineDuration: 0.6
+  zoomDuration: 0.5
+  glowDuration: 0.6
 --- !u!212 &2966715964713589052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -160,7 +176,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: cb5eeca721efcd94d85a9d4b558d76fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
